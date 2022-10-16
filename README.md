@@ -1,29 +1,26 @@
 # Recurrent Replay Deeper Denser Distributed DQN+ (Reinforcement Learning):
 
-This work was undertaken and submitted as a 3rd year Bachelors Dissertation/Project as part of the degree of Msci Natural Sciences to the Board of Examiners in the Department of Computer Sciences, Durham University, and is licensed accordingly. 
-## Grade: 1st - 92/100, 6th best in year (of 100 projects).
+This work was undertaken and submitted as a 3rd year Bachelors Independent Project as part of the degree of Bsc Natural Sciences to the Board of Examiners in the Department of Computer Sciences, Durham University, and is licensed accordingly. 
+## Grade: 1st - 90/100, 1st best in year (of 37 projects).
 
 This agent was trained and extensively tested on Super Mario Bros NES, credits for the enviroment go to [Christian Kauten](https://github.com/Kautenja/gym-super-mario-bros). See main paper and codebase for all references and accreditatons.
 
-## Demo video (taken from my [portfolio page](https://github.com/shadowbourne)):
-  > ![Gifdemo6](https://user-images.githubusercontent.com/18665030/136659042-7b071648-e77a-4fef-9757-9160d22ae2b0.gif)
+## Demo video:
+  > ![Gifdemo6](https://github.com/Lauren-Stumpf/Reinforcement_Learning_Summer_School/blob/main/mario_video.gif)
   > 
-  > During my Dissertation, I surveyed the field of Reinforcement Learning and spent my project investigating how best to combine many recent advances from Reinforcement Learning. In doing so, I created an AI agent capable of teaching itself to play the game Super Mario Bros. to superhuman level, achieving new state-of-the-art performance within the field. This demo shows the agent playing Worlds 5 and 7, and was taken from the project's [final presentation](https://github.com/shadowbourne/R2D4-RL/blob/main/Demonstration%20Final%20Presentation.pptx).
-  > 
-  > <img src="https://user-images.githubusercontent.com/18665030/136562342-ef434a45-5ffd-4d7c-858e-ceee3894eec4.png" width="48" title="Mario"/>
+  > During my Independent Project, I surveyed the field of Reinforcement Learning and spent my project investigating how best to combine many recent advances from Reinforcement Learning. In doing so, I created an AI agent capable of teaching itself to play the game Super Mario Bros. to superhuman level, achieving new state-of-the-art performance within the field. This demo shows the agent playing Worlds 5 and 7.
+  
 ## Comparison of R2D4+ with other RL models:
-> ![image](https://user-images.githubusercontent.com/18665030/139477139-32e93895-45e0-4c12-9e77-3225cdfd99b9.png)
+> ![image](https://github.com/Lauren-Stumpf/Reinforcement_Learning_Summer_School/blob/main/evaluation_graphs.png)
 > This plot shows training scores, out-of-sample-level evaluation scores (levels the model has never been trained on) and episodic completion rates over training between our model R2D4+ and various models taken from RL literature. 
 > 
 > **Note:** Variations of R2D4+ that performed considerably better than the R2D4+ baseline shown here were also developed in the paper (by 50%+), therefore our contributions are even more impressive than they seem from this graph.
 
 ## Repository Contents:
 * The main 20 page paper, Combining Recent Advances in Reinforcement Learning for Super Mario Bros.;
-* A 3 page Appendix of additional theory and explanations;
-* The Project Demonstration (a 30 minute Oral Exam demonstrating the work undertaken and success of the Project);
 * The accompanying codebase for the agent R2D4+, with switches to turn on and off every individual component (very useful for learning what individual papers have contributed, if you are new to the field);
-* An extensive base of training videos taken throughout training of the agent on various training sets and agent component set-ups (submit an issue if you have any queries regarding run names), very useful to see how the agent learns, what it struggles with;
-* Interactive graphs for all data gathered from (most) training runs ([click here](https://tensorboard.dev/experiment/EyHmIrtQSyarXQGXzVL4gw/ "TensorBoard Graphs")), hosted on TensorBoard.dev, alongside most of the raw TensorBoard data too to be used for future studies and learning. Once again, get in contact if you have any queries regarding run names :).
+
+* Interactive graphs for all data gathered from (most) training runs, hosted on TensorBoard.dev, alongside most of the raw TensorBoard data too to be used for future studies and learning.
 
 ## Paper Abstract:
 ### Context:
