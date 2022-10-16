@@ -1,4 +1,4 @@
-# Recurrent Replay Deeper Denser Distributed DQN+ (Reinforcement Learning):
+# Advancing State of the Art for Super Marios Bro: Recurrent Replay Deeper Denser Distributed DQN+:
 
 This work was undertaken and submitted as a 3rd year Bachelors Independent Project as part of the degree of Bsc Natural Sciences to the Board of Examiners in the Department of Computer Sciences, Durham University, and is licensed accordingly. 
 ## Grade: 1st - 90/100, 1st best in year (of 37 projects).
